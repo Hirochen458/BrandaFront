@@ -38,13 +38,13 @@ export default function About(){
     <View style={styles.container}>
       <Button uppercase={false}
       onPress={copyToClipboard} >
-      <Text style={styles.copiedText}> Click here to copy to Clipboard </Text>
+      <Text> Click here to copy to Clipboard </Text>
       </Button>
       <Button  uppercase={false}
       onPress={fetchCopiedText} >
-      <Text style={styles.copiedText}> View copied text </Text>
+      <Text> View copied text </Text>
       </Button>
-      <Text style={styles.copiedText}>{copiedText}</Text>
+      <Text>{copiedText}</Text>
     </View>
   );
 }
